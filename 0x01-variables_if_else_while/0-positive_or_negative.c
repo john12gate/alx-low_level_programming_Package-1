@@ -20,39 +20,33 @@
  * Entry point of our code
  * In C every program / code begins with the main function
  * */
-int main (void){
+int main (void)
+{
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	/**
 	 * Code to check for diffeent values of n
 	 * We check for the value of n if its equal to zero if the program ran
 	 */
-
 	if (n == 0)
 	{
-		printf ("%i is zero\n", n);
+		printf("%i is zero\n", n);
 	}
-
 	/** 
 	 * We check for the value of n if is less than 0
 	 */
-
 	else if (n < 0)
 	{
-		printf ("%i is negative\n", n);
+		printf("%i is negative\n", n);
 	}
-
 	/**
 	 * If the value of n is neither 0 or negative, then it is positive
 	 */
-	
 	else 
 	{
-		printf ("%i is positive\n", n);
+		printf("%i is positive\n", n);
 	}
-
 	/**
 	 * We return the value of zero to th OS if the code runs successfully
 	 */
