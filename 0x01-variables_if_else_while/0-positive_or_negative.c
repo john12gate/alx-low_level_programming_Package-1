@@ -20,7 +20,7 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* Code to check for diffeent values of n */
-if (n = 0)
+if (n == 0)
 {
 printf ("%i is zero\n", n);
 }
