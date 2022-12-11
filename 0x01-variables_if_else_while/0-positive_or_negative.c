@@ -1,54 +1,55 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/** More headers goes here */
 #include <stdio.h>
 /**
- *  This program will assign a random number to the variable n each time it is executed. 
- *  Complete the source code in order to print whether the number stored in the variable n is positive or negative.
- *  You can find the source code here
- *  The variable n will store a different value every time you will run this program
- *  You don’t have to understand what rand, srand, RAND_MAX do. Please do not touch this code
- *  The output of the program should be:
- *  The number, followed by:
- *  	if the number is greater than 0: is positive
- *  	if the number is 0: is zero
- *  	if the number is less than 0: is negative
- *  followed by a new line 
- **/
+ * main - A program to generate random number each time its run
+ * Description - This program generates random number each time it is run
+ * This program uses the C Betty Style Code
+ *
+ *	- If the number is greater than 0 the program will print is zero
+ *	- If the number is less than 0 the program will print is negative
+ *	- If the number is 0 the program will print is zero
+ *
+ * @n - is the variable where we store the generated number
+ *
+ * Return: 0 is returned to the OS if the program runs successively,
+ * 1 otherwise
+ *
+ */
 
-/**
- * Entry point of our code
- * In C every program / code begins with the main function
- * */
-int main (void)
+int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
+	/** Your code goes here */
+
 	/**
-	 * Code to check for diffeent values of n
-	 * We check for the value of n if its equal to zero if the program ran
+	 * Description - We check for the output of the programme
+	 * if it is positive
 	 */
-	if (n == 0)
+	if (n > 0)
 	{
-		printf("%i is zero\n", n);
+		printf("%i is positive", n);
 	}
-	/** 
-	 * We check for the value of n if is less than 0
+
+	/**
+	 * Description - We cehck for the output if the program is negative
 	 */
 	else if (n < 0)
 	{
-		printf("%i is negative\n", n);
+		printf("%i is negative", n);
 	}
+
 	/**
-	 * If the value of n is neither 0 or negative, then it is positive
+	 * If the number generated is neigther positive nor negative
+	 * then it is zero
 	 */
-	else 
-	{
-		printf("%i is positive\n", n);
-	}
-	/**
-	 * We return the value of zero to th OS if the code runs successfully
-	 */
-		return (0);
+	else
+		printf("%i is zero", 0);
+
+	return (0);
 }
