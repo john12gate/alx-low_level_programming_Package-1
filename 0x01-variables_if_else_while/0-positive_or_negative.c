@@ -33,7 +33,7 @@ int main(void)
 	 */
 	if (n > 0)
 	{
-		printf("%i is positive", n);
+		printf("%d is positive\n", n);
 	}
 
 	/**
@@ -41,7 +41,7 @@ int main(void)
 	 */
 	else if (n < 0)
 	{
-		printf("%i is negative", n);
+		printf("%d is negative\n", n);
 	}
 
 	/**
@@ -49,7 +49,7 @@ int main(void)
 	 * then it is zero
 	 */
 	else
-		printf("%i is zero", 0);
+		printf("%d is zero\n", 0);
 
 	return (0);
 }
