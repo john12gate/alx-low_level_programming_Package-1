@@ -39,17 +39,17 @@ int main(void)
 	 * Description - We check for the output of the programme
 	 * if it is positive
 	 */
-	if ((10 % n) < 5)
+	if ((n % 10) > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, 10 % n);
+		printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 	}
 
 	/**
 	 * Description - We cehck for the output if the program is negative
 	 */
-	else if ((10 % n) < 6 && (10 % n) != 0)
+	else if ((n % 10) < 6 && (n % 10) != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 10 % n);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	}
 
 	/**
@@ -58,7 +58,10 @@ int main(void)
 	 * then it is zero
 	 */
 	else
+	{
+
 		printf("Last digit of %d is %d and is 0\n", n, n % 10);
+	}
 
 	return (0);
 }
