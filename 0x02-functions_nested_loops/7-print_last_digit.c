@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - returns last digit of a number
- * @x - variable of number
+ * @n: variable of number
  *
  * Description - Write a function that
  *	- prints the last digit of a number.
@@ -15,10 +15,14 @@
  * Return: always 0
  */
 
-int print_last_digit(int x)
+
+int print_last_digit(int n)
 {
 
-x = x % 10;
-return (x);
+int last_digit = n % 10;
+if (last_digit < 0)
+last_digit *= -1;
+_putchar(last_digit + '0');
+return (last_digit);
 
 }
