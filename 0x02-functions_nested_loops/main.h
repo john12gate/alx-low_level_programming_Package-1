@@ -1,7 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char c);
-void print_alphabet(void);
+<<<<<<< HEAD
+int _putchar(char c); /** A function to print _putchar */
+void print_alphabet(void); /** A function to print alphabet a - z */
 
 #endif
