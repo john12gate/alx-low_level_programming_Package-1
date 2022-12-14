@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints small letters a - z
+ * print_alphabet - prints small letters a - z
  * @c - char variables for holding alphabets
  * Author - John Ali
  * Email - alionuche2008@gmail.com
