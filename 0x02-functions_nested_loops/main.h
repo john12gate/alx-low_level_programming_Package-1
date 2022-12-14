@@ -8,5 +8,6 @@ int _islower(int c); /** Function to detect if a letter is not lowercase */
 int _isalpha(int c); /** A function that checks for alphabetic character */
 int print_sign(int n); /** A function that prints the sign of a number */
 int _abs(int); /** A function that prints absolute values of a number */
+int print_last_digit(int); /** A function that returns the last digit of a number */
 
 #endif
