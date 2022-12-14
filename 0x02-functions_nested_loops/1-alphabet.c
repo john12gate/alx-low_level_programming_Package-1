@@ -6,7 +6,7 @@
  * Author - John Ali
  * Email - alionuche2008@gmail.com
  *
- * Description - A function that prints a - z
+ * Description: A function that prints a - z
  *
  */
 
