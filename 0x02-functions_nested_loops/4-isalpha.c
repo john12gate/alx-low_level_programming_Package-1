@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - check for aA or zZ
- * @c - variable parameter
+ * @c: variable parameter
  *
  * Description - Write a function that checks
  * for alphabetic character.
