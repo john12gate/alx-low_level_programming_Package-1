@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Main Entry
- * @x - Variable of sign
+ * @n: Variable of sign
  *
  * Description - Write a function that prints the sign of a number.
  *	- Prototype: int print_sign(int n);
