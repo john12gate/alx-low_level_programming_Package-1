@@ -2,7 +2,7 @@
 
 /**
  * _islower - Entry point
- * @v - boolean variable
+ * @v: boolean variable
  *
  * Description - Write a function that
  *	- checks for lowercase character.
