@@ -15,4 +15,5 @@ int add(int, int); /** A function that adds two numbers */
 void print_to_98(int n); /** prints natural number 1 - 98 */
 void print_times_table(int n);
 
+
 #endif
