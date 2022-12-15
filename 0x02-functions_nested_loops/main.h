@@ -11,5 +11,6 @@ int _abs(int); /** A function that prints absolute values of a number */
 int print_last_digit(int); /** A function that returns the last digit of a number */
 void jack_bauer(void); /** A function that prints time for jack bauer */
 void times_table(void); /** A unction or times table */
+int add(int, int); /** A function that adds two numbers */
 
 #endif
