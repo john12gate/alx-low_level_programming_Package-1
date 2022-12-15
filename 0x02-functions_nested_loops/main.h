@@ -13,5 +13,6 @@ void jack_bauer(void); /** A function that prints time for jack bauer */
 void times_table(void); /** A unction or times table */
 int add(int, int); /** A function that adds two numbers */
 void print_to_98(int n); /** prints natural number 1 - 98 */
+void print_times_table(int n);
 
 #endif
